@@ -1,0 +1,199 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (16/9/2014)
+%
+% Author ; Kunaal Ahuja
+%
+% Source code forked from repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}
+{Kunaal Ahuja}{
+\urlstyle{same}\h{1264, Barnes St NW, Atlanta, Georgia, 30318} \\
+\href{mailto:kunaal@gatech.edu}{kunaal@gatech.edu}, \href{mailto:kunaal92@gmail.com}{kunaal92@gmail.com} || 
+(678) 848-8960 ||
+\href{https://www.linkedin.com/in/kunaal-ahuja/}{LinkedIn} ||  
+\href{https://github.com/kunaalahuja/}GitHub \\
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Georgia Institute of} 
+\subsection{Technology}
+\descript{Master of Science in Analytics}
+\location{Computational Data Analytics}
+\location{Expected Dec 2020 | Atlanta, Georgia}
+\sectionsep
+
+\subsection{NETAJI SUBHAS INSTITUTE} 
+\subsection{OF TECHNOLOGY (NSIT),}
+\subsection{DELHI UNIVERSITY}
+\descript{BE in Information Technology}
+\location{May 2014 | New Delhi, India}
+\location{ CGPA: 9.0 / 10.0}
+\location{ Rank 2 in the department }
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Graduate}
+Analytics Modeling\\ 
+Data and Visual Analytics \\ 
+Deterministic Optimization \\ 
+Operation Research \\
+Regression Analysis \\
+{\footnotesize \textit{\textbf{(Teaching Assistant)}}} \\
+CSE 6040 Computing for Data Analytics \\
+\sectionsep
+
+\subsection{Undergraduate}
+Machine Learning \\ 
+Pattern Recognition
+Algorithms \\ 
+Data Structures \\
+Operating Systems \\ 
+Relational Database Managements Systems \\
+System Analysis And Design \\ 
+Computer Graphics \\ 
+Computer System Architecture \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Analytical Skills}
+\location{ANALYTICS AND LANGUAGES:}
+Python and R for data analysis and machine learning \textbullet{}   C++ \textbullet{} Slang \textbullet{} Scala \\
+Javascript \textbullet{} Matlab \textbullet{} D3 \textbullet{} \LaTeX  
+\vspace{6pt}
+\location{DATABASES and SOFTWARES:}
+SQL (Sybase, MemSQL, MySQL) \textbullet{} AWS S3 \textbullet{} Hive \textbullet{} Excel \textbullet{} Xpress \textbullet{} Tableau\vspace{6pt}
+\location{DATA SCIENCE FRAMEWORKS:}
+Hadoop \textbullet{} Spark \textbullet{} Pig \textbullet{} HBase \textbullet{} MapReduce \textbullet{} D3.js 
+\sectionsep
+
+\subsection{Financial Certifications}
+\location{Cleared CFA (Chartered Financial Analyst) Level 1 exam and candidate for CFA Level 2 exam}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Work Experience}
+\subsection{Goldman Sachs}
+\descript{Quantitative Strategist, Associate, Fixed Income Desk, GSAM}
+\location{Aug 2017 - July 2019 | Bangalore, India}
+\vspace{\topsep} 
+\begin{tightemize}
+\item Implemented and back-tested macro and govt/swap strategies to help portfolio managers trade different assets
+\item Built the caching infrastructure to store the real time data for financial products to enhance the performance of
+the back-test engine for systematic strategies
+\item Created the bridge between Python and Slang to create a multi environment research platform
+\item Created and improved risk management, performance and compliance monitoring tools for portfolio managers and traders
+\item Revamped the pricing model and added new factors in the risk model to attribute the returns for financial products at a more granular level
+\end{tightemize}
+
+\descript{Analyst, Data Platform, GSAM}
+\location{June 2014 - July 2017 | Bangalore, India}
+\begin{tightemize}
+\item Designed the different components of technological stack for GSAM’s data platform, comprising of a database layer
+to store the data, a compute layer to transform the data and a serving layer to serve the data with low latency
+\item Optimised SlangQL, the query language for Slang, by parsing the syntax tree
+\item Managed the complete infrastructure of MemSQL, an in-memory distributed database to store the data cache
+used for generating reports, and to render the data to the clients in sub-seconds time-frame
+\end{tightemize}
+\sectionsep
+
+\runsubsection{DELHI METRO RAIL CORPORATION (DMRC)}
+\descript{| Summer Intern }
+\location{June 2013 – July 2013 | New Delhi, India}
+\begin{tightemize}
+\item Developed a central document management system (DMS) for storing and tagging the internal documents, which
+eliminated the need to keep multiple copies of documents on local systems
+\end{tightemize}
+\sectionsep
+
+\runsubsection{CENTRE FOR RAILWAY INFORMATION SYSTEMS}
+\descript{| Intern }
+\location{June 2012 – July 2012 | New Delhi, India}
+\begin{tightemize}
+\item Developed a web enabled coaching refund system to manage the bookings and cancellations for the parcels sent
+through Indian Railways. This system was deployed in all the railway stations across India for three years
+\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{Client-Side Authorisation \& Authentication in a Collaborative Cloud}
+\newline
+\descript{Department of Computer Science, NSIT (Dr. M.P.S. Bhatia)}
+%\location{Jan 2014 – June 2014 | New Delhi, India}
+\begin{tightemize}
+\item Developed a multi-user collaborative application to allow sharing and editing by different users at the same time
+\item Encrypted the documents on the client side before uploading them to address the data security vulnerabilities
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ant based Clustering Algo in adhoc Networking}
+\newline
+\descript{Dept of Information Technology, NSIT (Dr. Sanjay Dhurandher)}
+%\location{Sep 2013 – Nov 2013 | New Delhi, India}
+\begin{tightemize}
+\item Research project on developing an efficient ant colony based clustering algorithm in mobile adhoc network
+\item Created a probabilistic indicator to choose the cluster head based on the pheromone value associated with the node \& its visibility in the network
+\end{tightemize}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
